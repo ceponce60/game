@@ -1,15 +1,15 @@
-@(contacts: List[models.Contact], form: Form[models.Contact])
+@(users: List[models.User], form: Form[models.User])
 
 @layout {
 
-    <h2>New Contact</h2>
+    <h2>New User</h2>
 
-    @helper.form(action = routes.Contacts.create){
+    @helper.form(action = routes.Users.create){
 
         @helper.inputText(form("name"), '_label -> "Name")
         @helper.inputText(form("emailAddress"), '_label -> "Email Address")
 
-        <input type="submit" value="New Contact" />
+        <input type="submit" value="New User" />
     }
 
     <table>
@@ -22,15 +22,15 @@
             </tr>
         </thead>
         <tbody>
-            @for(contact <- contacts) {
+            @for(user <- users) {
                 <tr>
-                    <td>@contact.name</td>
-                    <td>@contact.emailAddress</td>
+                    <td>@user.name</td>
+                    <td>@user.emailAddress</td>
                     <td>
-                        <a href='@routes.Contacts.edit(contact.id)'>Edit</a>
+                        <a href='@routes.Users.edit(user.id)'>Edit</a>
                     </td>
                     <td>
-                        @helper.form(action = routes.Contacts.delete(contact.id)){
+                        @helper.form(action = routes.Users.delete(user.id)){
                             <input type="submit" value="Delete!" />
                         }
                     </td>

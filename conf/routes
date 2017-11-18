@@ -2,11 +2,13 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-GET     /                           controllers.Contacts.index
-POST    /contact                    controllers.Contacts.create
-GET     /contact/:id                controllers.Contacts.edit(id: Long)
-POST    /contact/:id                controllers.Contacts.update(id: Long)
-POST    /contact/:id/delete         controllers.Contacts.delete(id: Long)
+GET     /                        controllers.Users.index
+GET     /index                   controllers.States.index
+GET     /battle/:id/:enemy_id    controllers.States.attack(id: Long, enemy_id: Long)
+POST    /user                    controllers.Users.create
+GET     /user/:id                controllers.Users.edit(id: Long)
+POST    /user/:id                controllers.Users.update(id: Long)
+POST    /user/:id/delete         controllers.Users.delete(id: Long)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

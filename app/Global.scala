@@ -7,7 +7,7 @@ object Global extends GlobalSettings {
 
   /****************************************************************
    * For this module we ignored this file as it is covered in
-   * the next module.  It deletes the in memory contacts collection
+   * the next module.  It deletes the in memory users collection
    * and recreates it with some dummy data.
    *///************************************************************
   override def onStart(app: Application) {
@@ -15,8 +15,11 @@ object Global extends GlobalSettings {
     import play.api.Play.current
 
     DB.withConnection { implicit connection =>
-      SQL("INSERT INTO contacts(name, emailAddress) VALUES('Juan Ponce', 'cpfiro@gmail.com')").execute()
-      SQL("INSERT INTO contacts(name, emailAddress) VALUES('Steven Lion Tamer', 'demagoil@gmail.com')").execute()
+      SQL("INSERT INTO users(name, emailAddress) VALUES('Juan Ponce', 'cpfiro@gmail.com')").execute()
+      SQL("INSERT INTO users(name, emailAddress) VALUES('Steven Lion Tamer', 'demagoil@gmail.com')").execute()
+
+      SQL("INSERT INTO states(enemy_id, name, enemy_name, health) VALUES(2, 'bear', 'lion', 100)").execute()
+      SQL("INSERT INTO states(enemy_id, name, enemy_name, health) VALUES(1, 'lion', 'bear', 100)").execute()
     }
   }
 }

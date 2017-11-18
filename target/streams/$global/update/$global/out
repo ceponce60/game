@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for contacts#contacts_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39e74aba[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74b9a4aa[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.2 in sbt-chain[0m
@@ -202,7 +202,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.7.0.Final!netty.pom(pom.original) (56ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.7.0.Final!netty.pom(pom.original) (88ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -239,7 +239,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.5!jul-to-slf4j.pom(pom.original) (49ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.5!jul-to-slf4j.pom(pom.original) (55ms)[0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.5 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-parent;1.7.5[0m
@@ -260,7 +260,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.pom(pom.original) (54ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.pom(pom.original) (57ms)[0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.5 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-parent;1.7.5[0m
@@ -340,7 +340,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.18/async-http-client-1.7.18.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.18/async-http-client-1.7.18.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.18/async-http-client-1.7.18.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.ning#async-http-client;1.7.18!async-http-client.pom(pom.original) (49ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.ning#async-http-client;1.7.18!async-http-client.pom(pom.original) (63ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;5 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;5[0m
@@ -618,7 +618,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0.1!guava.pom(pom.original) (49ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0.1!guava.pom(pom.original) (60ms)[0m
 [0m[[0minfo[0m] [0mResolving com.google.guava#guava-parent;14.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava-parent;14.0.1 {}[0m
 [0m[[0mdebug[0m] [0m		tried /home/juan/.ivy2/local/com.google.guava/guava-parent/14.0.1/ivys/ivy.xml[0m
@@ -630,7 +630,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;14.0.1!guava-parent.pom(pom.original) (58ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;14.0.1!guava-parent.pom(pom.original) (61ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -1627,7 +1627,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-festassert/0.8.0/fluentlenium-festassert-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-festassert/0.8.0/fluentlenium-festassert-0.8.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-festassert/0.8.0/fluentlenium-festassert-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-festassert;0.8.0!fluentlenium-festassert.pom(pom.original) (49ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-festassert;0.8.0!fluentlenium-festassert.pom(pom.original) (56ms)[0m
 [0m[[0minfo[0m] [0mResolving org.fluentlenium#fluentlenium-parent;0.8.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fluentlenium#fluentlenium-parent;0.8.0 {}[0m
 [0m[[0mdebug[0m] [0m		tried /home/juan/.ivy2/local/org.fluentlenium/fluentlenium-parent/0.8.0/ivys/ivy.xml[0m
@@ -1639,7 +1639,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-parent;0.8.0!fluentlenium-parent.pom(pom.original) (47ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-parent;0.8.0!fluentlenium-parent.pom(pom.original) (52ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -1663,7 +1663,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.8.0/fluentlenium-core-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.8.0/fluentlenium-core-0.8.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.8.0/fluentlenium-core-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-core;0.8.0!fluentlenium-core.pom(pom.original) (76ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-core;0.8.0!fluentlenium-core.pom(pom.original) (65ms)[0m
 [0m[[0minfo[0m] [0mResolving org.fluentlenium#fluentlenium-parent;0.8.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fluentlenium#fluentlenium-parent;0.8.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-parent;0.8.0[0m
@@ -1834,7 +1834,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-codec#commons-codec;1.6!commons-codec.pom(pom.original) (50ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-codec#commons-codec;1.6!commons-codec.pom(pom.original) (62ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;22 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;22 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-parent;22[0m
@@ -1873,7 +1873,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-exec;1.1!commons-exec.pom(pom.original) (50ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-exec;1.1!commons-exec.pom(pom.original) (58ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;17 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;17 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-parent;17[0m
@@ -2157,7 +2157,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.sourceforge.cssparser#cssparser;0.9.9!cssparser.pom(pom.original) (48ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.sourceforge.cssparser#cssparser;0.9.9!cssparser.pom(pom.original) (62ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -2208,7 +2208,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.2!commons-io.pom(pom.original) (51ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.2!commons-io.pom(pom.original) (71ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;24 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;24 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-parent;24[0m
@@ -2242,7 +2242,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.9.v20130131/jetty-websocket-8.1.9.v20130131.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.9.v20130131/jetty-websocket-8.1.9.v20130131.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.9.v20130131/jetty-websocket-8.1.9.v20130131.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.9.v20130131!jetty-websocket.pom(pom.original) (50ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.9.v20130131!jetty-websocket.pom(pom.original) (59ms)[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-project;8.1.9.v20130131 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.9.v20130131 {}[0m
 [0m[[0mdebug[0m] [0m		tried /home/juan/.ivy2/local/org.eclipse.jetty/jetty-project/8.1.9.v20130131/ivys/ivy.xml[0m
@@ -2254,7 +2254,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.9.v20130131/jetty-project-8.1.9.v20130131.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.9.v20130131/jetty-project-8.1.9.v20130131.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.9.v20130131/jetty-project-8.1.9.v20130131.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-project;8.1.9.v20130131!jetty-project.pom(pom.original) (52ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-project;8.1.9.v20130131!jetty-project.pom(pom.original) (60ms)[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-parent;20 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;20 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-parent;20[0m
@@ -2311,7 +2311,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.9.v20130131/jetty-util-8.1.9.v20130131.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.9.v20130131/jetty-util-8.1.9.v20130131.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.9.v20130131/jetty-util-8.1.9.v20130131.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.9.v20130131!jetty-util.pom(pom.original) (48ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.9.v20130131!jetty-util.pom(pom.original) (51ms)[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-project;8.1.9.v20130131 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.9.v20130131 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.9.v20130131[0m
@@ -2361,7 +2361,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.9.v20130131/jetty-io-8.1.9.v20130131.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.9.v20130131/jetty-io-8.1.9.v20130131.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.9.v20130131/jetty-io-8.1.9.v20130131.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.9.v20130131!jetty-io.pom(pom.original) (45ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.9.v20130131!jetty-io.pom(pom.original) (57ms)[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-project;8.1.9.v20130131 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.9.v20130131 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.9.v20130131[0m
@@ -2413,7 +2413,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.9.v20130131/jetty-http-8.1.9.v20130131.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.9.v20130131/jetty-http-8.1.9.v20130131.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.9.v20130131/jetty-http-8.1.9.v20130131.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.9.v20130131!jetty-http.pom(pom.original) (49ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.9.v20130131!jetty-http.pom(pom.original) (60ms)[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-project;8.1.9.v20130131 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.9.v20130131 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.9.v20130131[0m
@@ -4878,3 +4878,460 @@
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom (4.1)[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm;4.1!asm.pom(pom.original) (57ms)[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-parent;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;4.1 {}[0m
+[0m[[0mdebug[0m] [0m		tried /home/juan/.ivy2/local/org.ow2.asm/asm-parent/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.ow2.asm#asm-parent;4.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.ow2.asm#asm-parent;4.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.pom (4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-parent;4.1!asm-parent.pom(pom.original) (55ms)[0m
+[0m[[0minfo[0m] [0mResolving org.ow2#ow2;1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2#ow2;1.3 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2#ow2;1.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2#ow2;1.3[0m
+[0m[[0mdebug[0m] [0m		tried /home/juan/.ivy2/local/org.ow2.asm/asm-parent/4.1/jars/asm-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/ow2/asm/asm-parent/4.1/asm-parent-4.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm;4.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-tree;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-tree;4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/juan/.ivy2/local/org.ow2.asm/asm-tree/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.ow2.asm#asm-tree;4.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.ow2.asm#asm-tree;4.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom (4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-tree;4.1!asm-tree.pom(pom.original) (54ms)[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-parent;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;4.1 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-parent;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm-parent;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm-tree;4.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-analysis;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-analysis;4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/juan/.ivy2/local/org.ow2.asm/asm-analysis/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.ow2.asm#asm-analysis;4.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.ow2.asm#asm-analysis;4.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom (4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-analysis;4.1!asm-analysis.pom(pom.original) (55ms)[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-parent;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;4.1 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-parent;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm-parent;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm-analysis;4.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-util;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-util;4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/juan/.ivy2/local/org.ow2.asm/asm-util/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.ow2.asm#asm-util;4.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.ow2.asm#asm-util;4.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom (4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.ow2.asm#asm-util;4.1!asm-util.pom(pom.original) (52ms)[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-parent;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;4.1 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-parent;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm-parent;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm-util;4.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->commons-io#commons-io;2.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->commons-io#commons-io;2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.10;2.2.1->com.typesafe.play#play-doc_2.10;1.0.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.10;2.2.1->com.typesafe.play#play-doc_2.10;1.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->org.pegdown#pegdown;1.4.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->org.pegdown#pegdown;1.4.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.4.0->org.parboiled#parboiled-java;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.4.0->org.parboiled#parboiled-java;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->commons-io#commons-io;2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->commons-io#commons-io;2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.10;2.2.1->com.typesafe.play#play_2.10;2.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.10;2.2.1->com.typesafe.play#play_2.10;2.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#sbt-link;2.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#sbt-link;2.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.1->org.javassist#javassist;3.18.0-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.1->org.javassist#javassist;3.18.0-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#play-exceptions;2.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#play-exceptions;2.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#templates_2.10;2.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#templates_2.10;2.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#templates_2.10;2.2.1->com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#templates_2.10;2.2.1->com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-file_2.10;0.4.2->com.github.scala-incubator.io#scala-io-core_2.10;0.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-file_2.10;0.4.2->com.github.scala-incubator.io#scala-io-core_2.10;0.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-core_2.10;0.4.2->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-core_2.10;0.4.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-core_2.10;0.4.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-core_2.10;0.4.2->com.jsuereth#scala-arm_2.10;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-core_2.10;0.4.2->com.jsuereth#scala-arm_2.10;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jsuereth#scala-arm_2.10;1.3->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jsuereth#scala-arm_2.10;1.3->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jsuereth#scala-arm_2.10;1.3->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-file_2.10;0.4.2->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-file_2.10;0.4.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.scala-incubator.io#scala-io-file_2.10;0.4.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#play-iteratees_2.10;2.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#play-iteratees_2.10;2.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.2.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.2.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.2.1->com.typesafe#config;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.2.1->com.typesafe#config;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#play-json_2.10;2.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.play#play-json_2.10;2.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.typesafe.play#play-iteratees_2.10;2.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.typesafe.play#play-iteratees_2.10;2.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.typesafe.play#play-functional_2.10;2.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.typesafe.play#play-functional_2.10;2.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.2.1->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.10;2.2.1->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.typesafe.play#play-datacommons_2.10;2.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.typesafe.play#play-datacommons_2.10;2.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.2.1->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.10;2.2.1->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->joda-time#joda-time;2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->joda-time#joda-time;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->org.joda#joda-convert;1.3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->org.joda#joda-convert;1.3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.fasterxml.jackson.core#jackson-databind;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->com.fasterxml.jackson.core#jackson-databind;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->org.scala-lang#scala-reflect;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.10;2.2.1->org.scala-lang#scala-reflect;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->io.netty#netty;3.7.0.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->io.netty#netty;3.7.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.netty#netty-http-pipelining;1.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.netty#netty-http-pipelining;1.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.netty#netty-http-pipelining;1.1.2->io.netty#netty;3.6.3.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.netty#netty-http-pipelining;1.1.2->io.netty#netty;3.7.0.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.netty#netty-http-pipelining;1.1.2->io.netty#netty;3.7.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.slf4j#jul-to-slf4j;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.slf4j#jul-to-slf4j;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jul-to-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jul-to-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.slf4j#jcl-over-slf4j;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.slf4j#jcl-over-slf4j;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->ch.qos.logback#logback-classic;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->ch.qos.logback#logback-classic;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2.0->com.typesafe#config;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2.0->com.typesafe#config;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.0->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.0->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.0->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->joda-time#joda-time;2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->joda-time#joda-time;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.joda#joda-convert;1.3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.joda#joda-convert;1.3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.apache.commons#commons-lang3;3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.apache.commons#commons-lang3;3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.ning#async-http-client;1.7.18 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.ning#async-http-client;1.7.18 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.7.18->io.netty#netty;3.6.6.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.7.18->io.netty#netty;3.7.0.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.7.18->io.netty#netty;3.7.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.7.18->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.7.18->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->oauth.signpost#signpost-core;1.2.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.fasterxml.jackson.core#jackson-databind;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->com.fasterxml.jackson.core#jackson-databind;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->xerces#xercesImpl;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->xerces#xercesImpl;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->javax.transaction#jta;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->javax.transaction#jta;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.scala-lang#scala-reflect;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.scala-lang#scala-reflect;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.10;2.2.1->com.typesafe.play#play-doc_2.10;1.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.10;2.2.1->com.typesafe.play#play-doc_2.10;1.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->com.typesafe.play#play-docs_2.10;2.2.1 [docs->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for contacts#contacts_2.10;1.0-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for contacts#contacts_2.10;1.0-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.2 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-reflect;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-reflect;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-reflect;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-reflect;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#jline;2.10.2 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#jline;2.10.2 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.2->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.2->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies contacts#contacts_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/juan/Scala/game/target/resolution-cache/contacts/contacts_2.10/1.0-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.10;2.2.1!play-jdbc_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#anorm_2.10;2.2.1!anorm_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.10;2.2.1!play-cache_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play_2.10;2.2.1!play_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.3.172!h2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] tyrex#tyrex;1.0.1!tyrex.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#sbt-link;2.2.1!sbt-link.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.2.1!play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#templates_2.10;2.2.1!templates_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.10;2.2.1!play-iteratees_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-json_2.10;2.2.1!play-json_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.7.0.Final!netty.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.netty#netty-http-pipelining;1.1.2!netty-http-pipelining.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.5!jul-to-slf4j.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.13!logback-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.13!logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.scala-incubator.io#scala-io-file_2.10;0.4.2!scala-io-file_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.0!akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.2.0!akka-slf4j_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-stm#scala-stm_2.10;0.7!scala-stm_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.2!joda-time.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.3.1!joda-convert.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.1!commons-lang3.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.ning#async-http-client;1.7.18!async-http-client.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] oauth.signpost#signpost-core;1.2.1.2!signpost-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] oauth.signpost#signpost-commonshttp4;1.2.1.2!signpost-commonshttp4.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.2.2!jackson-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.2.2!jackson-annotations.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.2.2!jackson-databind.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.2!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.javassist#javassist;3.18.0-GA!javassist.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.scala-incubator.io#scala-io-core_2.10;0.4.2!scala-io-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.jsuereth#scala-arm_2.10;1.3!scala-arm_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-functional_2.10;2.2.1!play-functional_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.10;2.2.1!play-datacommons_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.3!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0.1!httpcore.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.0.1!httpclient.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sf.ehcache#ehcache-core;2.6.6!ehcache-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-test_2.10;2.2.1!play-test_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.11!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.1.1!specs2_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.novocode#junit-interface;0.10!junit-interface.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.1!jsr305.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fluentlenium#fluentlenium-festassert;0.8.0!fluentlenium-festassert.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.2!scalaz-core_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.2!scalaz-concurrent_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.2!scalaz-effect_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;0.8.0!fluentlenium-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.easytesting#fest-assert;1.4!fest-assert.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-java;2.32.0!selenium-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-android-driver;2.32.0!selenium-android-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-chrome-driver;2.32.0!selenium-chrome-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0!selenium-htmlunit-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;2.32.0!selenium-firefox-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-ie-driver;2.32.0!selenium-ie-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-iphone-driver;2.32.0!selenium-iphone-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-safari-driver;2.32.0!selenium-safari-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;2.32.0!selenium-support.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webbitserver#webbit;0.4.14!webbit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;2.32.0!selenium-remote-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] cglib#cglib-nodep;2.1_3!cglib-nodep.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json#json;20080701!json.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;2.32.0!selenium-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.2.1!httpclient.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-exec;1.1!commons-exec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.java.dev.jna#jna;3.4.0!jna.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.java.dev.jna#platform;3.4.0!platform.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.2.1!httpcore.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.6!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.12!htmlunit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] xalan#xalan;2.7.1!xalan.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.2.3!httpmime.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.12!htmlunit-core-js.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.nekohtml#nekohtml;1.9.18!nekohtml.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.9!cssparser.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.2!commons-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.9.v20130131!jetty-websocket.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] xalan#serializer;2.7.1!serializer.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.9.v20130131!jetty-util.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.9.v20130131!jetty-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.9.v20130131!jetty-http.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.easytesting#fest-util;1.1.6!fest-util.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-docs_2.10;2.2.1!play-docs_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-doc_2.10;1.0.3!play-doc_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.pegdown#pegdown;1.4.0!pegdown.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.5!parboiled-java.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm;4.1!asm.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-tree;4.1!asm-tree.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6777ms :: artifacts dl 63ms[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT compile produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT runtime produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT test produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT provided produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT optional produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT compile-internal produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT runtime-internal produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT test-internal produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT plugin produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT sources produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT docs produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT pom produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for contacts#contacts_2.10;1.0-SNAPSHOT scala-tool produced in /home/juan/Scala/game/target/resolution-cache/reports/contacts-contacts_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (6777ms resolve - 63ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

@@ -1,14 +1,14 @@
-@(id: Long, contact: Form[Contact])
+@(id: Long, user: Form[User])
 
 @layout {
 
-    <h2>Update Contact</h2>
+    <h2>Update User</h2>
 
-    @helper.form(action = routes.Contacts.update(id)){
+    @helper.form(action = routes.Users.update(id)){
 
-        @helper.inputText(contact("name"), '_label -> "Name")
-        @helper.inputText(contact("emailAddress"), '_label -> "Email Address")
+        @helper.inputText(user("name"), '_label -> "Name")
+        @helper.inputText(user("emailAddress"), '_label -> "Email Address")
 
-        <input type="submit" value="Update Contact" />
+        <input type="submit" value="Update User" />
     }
 }

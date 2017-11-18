@@ -1,0 +1,29 @@
+@(states: List[models.State])
+
+@layout {
+
+    <h2>Battle</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email Address</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(state <- states) {
+                <tr>
+                    <td>@state.name</td>
+                    <td>
+                        <a href='@routes.States.attack(1, state.enemy_id)'>Edit</a>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
