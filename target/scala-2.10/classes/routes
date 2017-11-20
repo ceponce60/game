@@ -3,7 +3,8 @@
 # ~~~~
 
 GET     /                        controllers.Users.index
-GET     /battle                  controllers.Users.index
+GET     /index                   controllers.States.index
+GET     /battle/:id/:enemy_id    controllers.States.attack(id: Long, enemy_id: Long)
 POST    /user                    controllers.Users.create
 GET     /user/:id                controllers.Users.edit(id: Long)
 POST    /user/:id                controllers.Users.update(id: Long)

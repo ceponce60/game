@@ -24,10 +24,10 @@ Seq[Any](format.raw/*1.17*/("""
 <!doctype html>
 <html>
     <head>
-        <title>_Users_</title>
+        <title>_Game_</title>
     </head>
     <body>
-        <h1>Users</h1>
+        <h1>Game</h1>
         """),_display_(Seq[Any](/*10.10*/content)),format.raw/*10.17*/("""
     </body>
 </html>
@@ -43,10 +43,10 @@ Seq[Any](format.raw/*1.17*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Nov 12 21:22:55 PST 2017
+                    DATE: Fri Nov 17 18:40:57 PST 2017
                     SOURCE: /home/juan/Scala/game/app/views/layout.scala.html
-                    HASH: ccde01e0c01456ed5dbfb79d1aab9dca6cd71071
-                    MATRIX: 555->1|664->16|822->138|851->145
+                    HASH: f1bed3b5fdfc184d0c4172aeee98b5d0eff8911d
+                    MATRIX: 555->1|664->16|820->136|849->143
                     LINES: 19->1|22->1|31->10|31->10
                     -- GENERATED --
                 */

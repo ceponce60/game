@@ -11,7 +11,9 @@ object States extends Controller {
   }
 
   def attack(id: Long, enemy_id: Long) = Action {
-    Ok(views.html.battle())
+    val state = State(2, 1, "bear", "lion", 100)
+    State.attack(id, enemy_id, state)
+    Redirect(routes.States.index())
   }
 
   // def index = Action {

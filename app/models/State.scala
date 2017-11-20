@@ -21,7 +21,6 @@ object State {
           health = row[Long]("health")
         )
       }
-
       states.toList
     }
   }
@@ -54,7 +53,6 @@ object State {
   def attack(id: Long, enemy_id: Long, state: State) {
     DB.withConnection { implicit connection =>
       SQL("""
-        UPDATE states SET enemy_id= {enemy_id} WHERE id={id};
         UPDATE states SET health= health - 5 WHERE id={enemy_id};
         """).on(
         "id" -> id,
@@ -65,6 +63,8 @@ object State {
       ).execute()
     }
   }
+  // UPDATE states SET enemy_id= {enemy_id} WHERE id={id};
+
 
   // val form = Form(
   //   mapping(
